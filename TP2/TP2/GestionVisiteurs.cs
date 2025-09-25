@@ -14,11 +14,12 @@ namespace TP2
 
         public void EntrerVisiteurDansFileAttente(string attractionId, Visiteur visiteur)
         {
-
+            visiteursFileAttente.Enqueue(visiteur);
+            visiteur.historique.Add(" - Entrer dans la file d'attente de l'attraction " + attractionId);
         }
         public void EntrerVisiteurDansAttraction(string attractionId)
         {
-
+             visiteursFileAttente.Dequeue().historique.Add(" - Entrer dans l'attraction " + attractionId );
         }
         public void EntrerVisiteurDansParc(Visiteur visiteur)
         { 
