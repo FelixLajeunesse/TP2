@@ -10,7 +10,7 @@ namespace TP2
     {
         public string Nom { get; set; }
 
-        public List<string> historique { get; set; } = [];
+        public List<string> Historique { get; set; } = [];
 
         public Visiteur(string nom)
         {

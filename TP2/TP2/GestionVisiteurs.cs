@@ -8,28 +8,28 @@ namespace TP2
 {
     public class GestionVisiteurs
     {
-        public LinkedList<Visiteur> visiteursActuel { get; set; } = new LinkedList<Visiteur>();
+        public LinkedList<Visiteur> VisiteursActuel { get; set; } = new LinkedList<Visiteur>();
 
-        public Queue<Visiteur> visiteursFileAttente { get; set; } = new Queue<Visiteur>();
+        public Queue<Visiteur> VisiteursFileAttente { get; set; } = new Queue<Visiteur>();
 
         public void EntrerVisiteurDansFileAttente(string attractionId, Visiteur visiteur)
         {
-            visiteursFileAttente.Enqueue(visiteur);
-            visiteur.historique.Add(" - Entrer dans la file d'attente de l'attraction " + attractionId);
+            VisiteursFileAttente.Enqueue(visiteur);
+            visiteur.Historique.Add(" - Entrer dans la file d'attente de l'attraction " + attractionId);
         }
         public void EntrerVisiteurDansAttraction(string attractionId)
         {
-             visiteursFileAttente.Dequeue().historique.Add(" - Entrer dans l'attraction " + attractionId );
+             VisiteursFileAttente.Dequeue().Historique.Add(" - Entrer dans l'attraction " + attractionId );
         }
         public void EntrerVisiteurDansParc(Visiteur visiteur)
         { 
-            visiteursActuel.AddLast(visiteur);
-            visiteur.historique.Add(" - Entrez dans le parc.");
+            VisiteursActuel.AddLast(visiteur);
+            visiteur.Historique.Add(" - Entrez dans le parc.");
         }
         public void SortirVisiteurDuParc(Visiteur visiteur)
         {
-            visiteursActuel.Remove(visiteur);
-            visiteur.historique.Add(" - Sortir du parc.");
+            VisiteursActuel.Remove(visiteur);
+            visiteur.Historique.Add(" - Sortir du parc.");
         }
 
 

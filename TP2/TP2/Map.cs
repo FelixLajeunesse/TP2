@@ -28,16 +28,10 @@ namespace TP2
                 string[] ligne = text[i + 1].Split("  ");
                 for (int j = 0; j < carte.GetLength(1); j++)
                 {
-                    carte[i, j] = ligne[j];
-                    //Console.Write(ligne[j]);
-                    Console.Write(carte[i, j]);
-                }
-                Console.WriteLine();
+                    carte[i, j] = ligne[j];                                      
+                }                
             }
-
-            return carte;
-           
+            return carte;           
         }
-
     }
 }
