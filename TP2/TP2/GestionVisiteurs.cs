@@ -8,6 +8,12 @@ namespace TP2
 {
     public class GestionVisiteurs
     {
+        private Parc Parc;
+
+        public GestionVisiteurs(Parc parc) 
+        {
+            this.Parc = parc;   
+        }   
         public LinkedList<Visiteur> VisiteursActuel { get; set; } = new LinkedList<Visiteur>();
 
         public Queue<Visiteur> VisiteursFileAttente { get; set; } = new Queue<Visiteur>();

@@ -23,7 +23,7 @@ namespace TP2
 
             foreach (Attraction attraction in parc.Attractions.Values)
             {
-                Console.WriteLine($"{attraction.Id}   {attraction.Type}   {attraction.Nom}     ?/{attraction.Capacite}");
+                Console.WriteLine($"{attraction.Id}   {attraction.Type}   {attraction.Nom}  / {attraction.Capacite}");
             }
             
         }

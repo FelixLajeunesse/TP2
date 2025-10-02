@@ -2,20 +2,50 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static readonly Parc Parc = new();
+        private static readonly Map Map = new();
+        private static readonly GestionVisiteurs GestionVisiteurs = new(Parc);
+        private static void Afficher()
         {
-            Parc parc = new Parc();
-            Visiteur visiteur = new Visiteur("test");
-            GestionVisiteurs gestionVisiteurs = new GestionVisiteurs();
-            Map map = new Map();
-            gestionVisiteurs.EntrerVisiteurDansParc(visiteur);
-            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions["M0001"].Id ,visiteur);
-            gestionVisiteurs.EntrerVisiteurDansAttraction(parc.Attractions["M0001"].Id);
-            gestionVisiteurs.SortirVisiteurDuParc(visiteur);
-            AffichageConsole.AfficherHistoriqueVisiteur(visiteur);
-            gestionVisiteurs.EntrerVisiteurDansParc(visiteur);
-            AffichageConsole.Afficher(parc, map, gestionVisiteurs);
-            
+            Thread.Sleep(1000);
+            AffichageConsole.Afficher(Parc, Map, GestionVisiteurs);
+        }
+        private static void TestEntrerVisiteur(Visiteur visiteur)
+        {
+            GestionVisiteurs.EntrerVisiteurDansParc(visiteur);
+            GestionVisiteurs.EntrerVisiteurDansFileAttente("M0002", visiteur);
+            Afficher();
+        }
+        private static void TestSortirVisiteur(Visiteur visiteur)
+        {
+            GestionVisiteurs.SortirVisiteurDuParc(visiteur);
+            Afficher();
+        }
+
+        public static void Main()
+        {
+            AffichageConsole.Afficher(Parc, Map, GestionVisiteurs);
+
+            var visiteur1 = new Visiteur("Nom 1");
+            TestEntrerVisiteur(visiteur1);
+
+            var visiteur2 = new Visiteur("Nom 2");
+            TestEntrerVisiteur(visiteur2);
+
+            var visiteur3 = new Visiteur("Nom 3");
+            TestEntrerVisiteur(visiteur3);
+            var visiteur4 = new Visiteur("Nom 4");
+            TestEntrerVisiteur(visiteur4);
+            for (var i = 1; i <= 4; i++)
+            {
+                GestionVisiteurs.EntrerVisiteurDansAttraction("M0002");
+                Afficher();
+            }
+            TestSortirVisiteur(visiteur3);
+            TestSortirVisiteur(visiteur4);
+            TestSortirVisiteur(visiteur2);
+            TestSortirVisiteur(visiteur1);
+            AffichageConsole.AfficherHistoriqueVisiteur(visiteur1);
         }
     }
 }
