@@ -14,12 +14,12 @@ namespace TP2
             this.Attractions = ChargerAttractions();
         }
         //a modifier pour prendre les attractions du fichier texte.
-        public List<Attraction> Attractions { get; } = [];
+        public Dictionary<string, Attraction> Attractions { get; } = [];
 
 
-        private List<Attraction> ChargerAttractions()
+        private Dictionary<string ,Attraction> ChargerAttractions()
         {
-            List<Attraction> attractions = new List<Attraction>();
+            Dictionary<string ,Attraction> attractions = new Dictionary<string, Attraction>();
 
             string path = "attractions.txt";
 
@@ -65,7 +65,7 @@ namespace TP2
                     throw new Exception("Il n'y a pas d'attraction de ce type dans le parc");
                 }
 
-                attractions.Add(new Attraction(id, nom, type, capacite));
+                attractions.Add(id,new Attraction(id, nom, type, capacite));
             }
             return attractions;
         }

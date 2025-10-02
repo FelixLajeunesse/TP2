@@ -9,8 +9,8 @@
             GestionVisiteurs gestionVisiteurs = new GestionVisiteurs();
             Map map = new Map();
             gestionVisiteurs.EntrerVisiteurDansParc(visiteur);
-            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions[0].Id ,visiteur);
-            gestionVisiteurs.EntrerVisiteurDansAttraction(parc.Attractions[0].Id);
+            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions["M0001"].Id ,visiteur);
+            gestionVisiteurs.EntrerVisiteurDansAttraction(parc.Attractions["M0001"].Id);
             gestionVisiteurs.SortirVisiteurDuParc(visiteur);
             AffichageConsole.AfficherHistoriqueVisiteur(visiteur);
             gestionVisiteurs.EntrerVisiteurDansParc(visiteur);

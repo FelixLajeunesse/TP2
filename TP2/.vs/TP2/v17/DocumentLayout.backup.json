@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +13,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AffichageConsole.cs",
               "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeDocumentMoniker": "TP2\\AffichageConsole.cs",
               "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeToolTip": "TP2\\AffichageConsole.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBkAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T21:31:47.123Z",
               "EditorCaption": ""
@@ -67,25 +67,24 @@
               "RelativeToolTip": "TP2\\Map.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:18:13.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T19:18:13.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Parc.cs",
               "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Parc.cs",
               "RelativeDocumentMoniker": "TP2\\Parc.cs",
               "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Parc.cs",
               "RelativeToolTip": "TP2\\Parc.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T15:37:22.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Attraction.cs",
               "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Attraction.cs",
               "RelativeDocumentMoniker": "TP2\\Attraction.cs",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "TP2\\Attraction.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwBUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:34:19.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:34:19.836Z"
             },
             {
               "$type": "Document",
@@ -110,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GestionVisiteurs.cs",
               "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\GestionVisiteurs.cs",
               "RelativeDocumentMoniker": "TP2\\GestionVisiteurs.cs",
               "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\GestionVisiteurs.cs",
               "RelativeToolTip": "TP2\\GestionVisiteurs.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:58:43.32Z",
               "EditorCaption": ""
@@ -131,18 +129,17 @@
               "RelativeToolTip": "TP2\\Visiteur.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:48:47.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T14:48:47.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Program.cs",
               "RelativeDocumentMoniker": "TP2\\Program.cs",
               "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Program.cs",
               "RelativeToolTip": "TP2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:48:18.79Z",
               "EditorCaption": ""
