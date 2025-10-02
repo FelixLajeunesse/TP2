@@ -6,14 +6,15 @@
         {
             Parc parc = new Parc();
             Visiteur visiteur = new Visiteur("test");
-            GestionVisiteurs gestionVisiteurs = new GestionVisiteurs();
+            GestionVisiteurs gestionVisiteurs = new GestionVisiteurs(parc);
             Map map = new Map();
             gestionVisiteurs.EntrerVisiteurDansParc(visiteur);
-            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions["M0001"].Id ,visiteur);
+            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions["M0001"].Id, visiteur);
             gestionVisiteurs.EntrerVisiteurDansAttraction(parc.Attractions["M0001"].Id);
             gestionVisiteurs.SortirVisiteurDuParc(visiteur);
             AffichageConsole.AfficherHistoriqueVisiteur(visiteur);
             gestionVisiteurs.EntrerVisiteurDansParc(visiteur);
+            gestionVisiteurs.EntrerVisiteurDansFileAttente(parc.Attractions["M0001"].Id, visiteur);
             AffichageConsole.Afficher(parc, map, gestionVisiteurs);
             
         }

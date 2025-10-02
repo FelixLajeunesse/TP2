@@ -21,9 +21,11 @@ namespace TP2
             }
             Console.WriteLine($"{gestionVisiteurs.VisiteursActuel.Count} visiteur(s) présent(s) dans le parc.\n");
 
+            int compteur = 0;
             foreach (Attraction attraction in parc.Attractions.Values)
             {
-                Console.WriteLine($"{attraction.Id}   {attraction.Type}   {attraction.Nom}     ?/{attraction.Capacite}");
+                compteur++;
+                Console.WriteLine($"{attraction.Id}   {attraction.Type}   {attraction.Nom}     {gestionVisiteurs.attractionsFileVisiteur[attraction.Id].Count}/{attraction.Capacite}");
             }
             
         }
