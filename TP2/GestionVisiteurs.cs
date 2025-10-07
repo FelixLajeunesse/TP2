@@ -36,8 +36,6 @@ namespace TP2
         /// </summary>
         public LinkedList<Visiteur> VisiteursActuel { get; set; } = new LinkedList<Visiteur>();
 
-        //public Queue<Visiteur> VisiteursFileAttente { get; set; } = new Queue<Visiteur>();
-
         /// <summary>
         /// Permet d'ajouter un visiteur dans la file d'attente d'une attraction.
         /// </summary>

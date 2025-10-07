@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TP2</name>
+    </assembly>
+    <members>
+        <member name="T:TP2.AffichageConsole">
+            <summary>
+            Cette classe permet d'afficher des informations dans la console.
+            </summary>
+        </member>
+        <member name="M:TP2.AffichageConsole.Afficher(TP2.Parc,TP2.Map,TP2.GestionVisiteurs)">
+            <summary>
+            Méthode qui permet d'afficher la carte du parc dans la console.
+            </summary>
+            <param name="parc">Parc d'attraction.</param>
+            <param name="map">La carte du parc d'attraction.</param>
+            <param name="gestionVisiteurs">Permet de faire la gestion des visiteurs.</param>
+        </member>
+        <member name="M:TP2.AffichageConsole.AfficherHistoriqueVisiteur(TP2.Visiteur)">
+            <summary>
+            Permet d'afficher l'historique d'un visiteur dans la console.
+            </summary>
+            <param name="visiteur">Parc d'attraction.</param>
+        </member>
+        <member name="T:TP2.Type">
+            <summary>
+            Représente les types d'attractions possibles.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.S">
+            <summary>
+            Représente une attraction de type sensation forte.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.I">
+            <summary>
+            Représente une attraction de type intermédiaire.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.F">
+            <summary>
+            Représente une attraction de type famille.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.T">
+            <summary>
+            Représente les toillettes.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.M">
+            <summary>
+            Représente un magasin.
+            </summary>
+        </member>
+        <member name="F:TP2.Type.R">
+            <summary>
+            Représente un restaurant.
+            </summary>
+        </member>
+        <member name="T:TP2.Attraction">
+            <summary>
+            Cette classe permet de représenter une attraction dans le parc d'attractions.
+            </summary>
+        </member>
+        <member name="P:TP2.Attraction.Id">
+            <summary>
+            Représente la gestion des visiteurs dans le parc.
+            </summary>
+        </member>
+        <member name="P:TP2.Attraction.Nom">
+            <summary>
+            Représente le nom de l'attraction.
+            </summary>
+        </member>
+        <member name="P:TP2.Attraction.Type">
+            <summary>
+            Représente le type de l'attraction.
+            </summary>
+        </member>
+        <member name="P:TP2.Attraction.Capacite">
+            <summary>
+            Représente la capacité maximale de l'attraction.
+            </summary>
+        </member>
+        <member name="M:TP2.Attraction.#ctor(System.String,System.String,TP2.Type,System.Int32)">
+            <summary>
+            Constructeur.
+            </summary>
+            <param name="id">Id de l'attraction.</param>
+            <param name="nom">Nom de l'attraction.</param>
+            <param name="type">Type d'attraction.</param>
+            <param name="capacite">Capacité de l'attraction.</param>
+        </member>
+        <member name="T:TP2.GestionVisiteurs">
+            <summary>
+            Cette classe permet de faire la gestion des visiteurs dans le parc.
+            </summary>
+        </member>
+        <member name="P:TP2.GestionVisiteurs.AttractionsFileVisiteur">
+            <summary>
+            Représente un dictionnaire des files d'attente des attractions du parc.
+            </summary>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.#ctor(TP2.Parc)">
+            <summary>
+            Constructeur.
+            </summary>
+            <param name="parc">Le parc où ce trouve les attractions.</param>
+        </member>
+        <member name="P:TP2.GestionVisiteurs.VisiteursActuel">
+            <summary>
+            Représente les visiteurs actuellement dans le parc.
+            </summary>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.EntrerVisiteurDansFileAttente(System.String,TP2.Visiteur)">
+            <summary>
+            Permet d'ajouter un visiteur dans la file d'attente d'une attraction.
+            </summary>
+            <param name="attractionId">Identifiant de l'attraction.</param>
+            <param name="visiteur">Représente un visiteur.</param>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.EntrerVisiteurDansAttraction(System.String)">
+            <summary>
+            Permet de faire entrer un visiteur dans une attraction.
+            </summary>
+            <param name="attractionId">Identifiant de l'attraction.</param>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.EntrerVisiteurDansParc(TP2.Visiteur)">
+            <summary>
+            Permet d'ajouter un visiteur dans le parc.
+            </summary>
+            <param name="visiteur">Représente un visiteur.</param>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.SortirVisiteurDuParc(TP2.Visiteur)">
+            <summary>
+            Permet de sortirir un visiteur du parc.
+            </summary>
+            <param name="visiteur">Représente un visiteur.</param>
+        </member>
+        <member name="M:TP2.GestionVisiteurs.InitialiserDictionaire(TP2.Parc)">
+            <summary>
+            Permet d'initialiser le dictionnaire des files d'attente des attractions.
+            </summary>
+            <param name="parc">Représente le parc d'attraction.</param>
+            <returns>Le dictionnaire initialisé.</returns>
+        </member>
+        <member name="T:TP2.Map">
+            <summary>
+            Cette classe qui permet de représenter la map du parc.
+            </summary>
+        </member>
+        <member name="F:TP2.Map.Carte">
+            <summary>
+            Représente la carte du parc.
+            </summary>
+        </member>
+        <member name="M:TP2.Map.ChargerMap">
+            <summary>
+            Permet de charger la map du parc à partir d'un fichier texte.
+            </summary>
+            <returns> Retourne un tableau 2D représentant la carte du parc.</returns>
+        </member>
+        <member name="T:TP2.Parc">
+            <summary>
+            Cette Classe permet de représenter le parc d'attractions.
+            </summary>
+        </member>
+        <member name="M:TP2.Parc.#ctor">
+            <summary>
+            Constructeur.
+            </summary>
+        </member>
+        <member name="P:TP2.Parc.Attractions">
+            <summary>
+            Représente un dictionnaire des attractions du parc.
+            </summary>
+        </member>
+        <member name="T:TP2.Program">
+            <summary>
+            Cette classe permet de faire des tests unitaires.
+            </summary>
+        </member>
+        <member name="M:TP2.Program.Main">
+            <summary>
+            Classe principale de notre programme.
+            </summary>
+        </member>
+        <member name="T:TP2.Visiteur">
+            <summary>
+            Cette classe permet de représenter un visiteur.
+            </summary>
+        </member>
+        <member name="P:TP2.Visiteur.Nom">
+            <summary>
+            Représente le nom d'un visiteur.
+            </summary>
+        </member>
+        <member name="P:TP2.Visiteur.Historique">
+            <summary>
+            Représente une liste de string qui contient l'historique des actions du visiteur.
+            </summary>
+        </member>
+        <member name="M:TP2.Visiteur.#ctor(System.String)">
+            <summary>
+            Constructeur.
+            </summary>
+            <param name="nom">Nom du visiteur.</param>
+        </member>
+    </members>
+</doc>

@@ -12,7 +12,38 @@ namespace TP2
     /// <summary>
     /// Représente les types d'attractions possibles.
     /// </summary>
-    public enum Type { S, I, F, T, M, R }
+    public enum Type
+    {
+        /// <summary>
+        /// Représente une attraction de type sensation forte.
+        /// </summary>
+        S,
+
+        /// <summary>
+        /// Représente une attraction de type intermédiaire.
+        /// </summary>
+        I,
+
+        /// <summary>
+        /// Représente une attraction de type famille.
+        /// </summary>
+        F,
+
+        /// <summary>
+        /// Représente les toillettes.
+        /// </summary>
+        T,
+
+        /// <summary>
+        /// Représente un magasin.
+        /// </summary>
+        M,
+
+        /// <summary>
+        /// Représente un restaurant.
+        /// </summary>
+        R,
+    }
 
     /// <summary>
     /// Cette classe permet de représenter une attraction dans le parc d'attractions.
@@ -42,7 +73,7 @@ namespace TP2
         /// <summary>
         /// Constructeur.
         /// </summary>
-        /// <param name="id">Id de l'attraction.n</param>
+        /// <param name="id">Id de l'attraction.</param>
         /// <param name="nom">Nom de l'attraction.</param>
         /// <param name="type">Type d'attraction.</param>
         /// <param name="capacite">Capacité de l'attraction.</param>

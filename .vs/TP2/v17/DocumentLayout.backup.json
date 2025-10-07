@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\",
+  "WorkspaceRootPath": "C:\\Users\\felix\\Desktop\\TP2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\visiteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\visiteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\visiteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\yoanj\\onedrive\\cegep\\session_3\\prog_3\\tp2\\tp2\\tp2\\tp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\tp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\tp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -42,67 +46,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\.editorconfig",
+              "RelativeDocumentMoniker": "TP2\\.editorconfig",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\.editorconfig",
+              "RelativeToolTip": "TP2\\.editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-07T16:37:43.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AffichageConsole.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\AffichageConsole.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeDocumentMoniker": "TP2\\AffichageConsole.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\AffichageConsole.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeToolTip": "TP2\\AffichageConsole.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T21:31:47.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Map.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Map.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Map.cs",
               "RelativeDocumentMoniker": "TP2\\Map.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Map.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Map.cs",
               "RelativeToolTip": "TP2\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:18:13.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Parc.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Parc.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Parc.cs",
               "RelativeDocumentMoniker": "TP2\\Parc.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Parc.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Parc.cs",
               "RelativeToolTip": "TP2\\Parc.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T15:37:22.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T15:37:22.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Attraction.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Attraction.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Attraction.cs",
               "RelativeDocumentMoniker": "TP2\\Attraction.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Attraction.cs",
-              "RelativeToolTip": "TP2\\Attraction.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA4wBUAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Attraction.cs*",
+              "RelativeToolTip": "TP2\\Attraction.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T15:34:19.836Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "TP2.csproj",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\TP2.csproj",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\TP2.csproj",
               "RelativeDocumentMoniker": "TP2\\TP2.csproj",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\TP2.csproj",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\TP2.csproj",
               "RelativeToolTip": "TP2\\TP2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -110,39 +125,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "GestionVisiteurs.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\GestionVisiteurs.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\GestionVisiteurs.cs",
               "RelativeDocumentMoniker": "TP2\\GestionVisiteurs.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\GestionVisiteurs.cs",
-              "RelativeToolTip": "TP2\\GestionVisiteurs.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwAoAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\GestionVisiteurs.cs*",
+              "RelativeToolTip": "TP2\\GestionVisiteurs.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCQAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:58:43.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Visiteur.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Visiteur.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Visiteur.cs",
               "RelativeDocumentMoniker": "TP2\\Visiteur.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Visiteur.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Visiteur.cs",
               "RelativeToolTip": "TP2\\Visiteur.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:48:47.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Program.cs",
               "RelativeDocumentMoniker": "TP2\\Program.cs",
-              "ToolTip": "C:\\Users\\yoanj\\OneDrive\\Cegep\\Session_3\\Prog_3\\TP2\\TP2\\TP2\\Program.cs",
+              "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Program.cs",
               "RelativeToolTip": "TP2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T14:48:18.79Z",
               "EditorCaption": ""
