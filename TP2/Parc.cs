@@ -1,24 +1,36 @@
-﻿using System;
+﻿// <copyright file="Parc.cs" company="CSTJEAN">
+// Félix Lajeunesse et Yoan Jalbert
+// </copyright>
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace TP2
 {
+    /// <summary>
+    /// Cette Classe permet de représenter le parc d'attractions.
+    /// </summary>
     public class Parc
     {
+        /// <summary>
+        /// Constructeur.
+        /// </summary>
         public Parc()
         {
             this.Attractions = ChargerAttractions();
         }
+
+        /// <summary>
+        /// Représente un dictionnaire des attractions du parc.
+        /// </summary>
         public Dictionary<string, Attraction> Attractions { get; } = [];
 
-
-        private Dictionary<string ,Attraction> ChargerAttractions()
+        private Dictionary<string, Attraction> ChargerAttractions()
         {
-            Dictionary<string ,Attraction> attractions = new Dictionary<string, Attraction>();
+            Dictionary<string, Attraction> attractions = new Dictionary<string, Attraction>();
 
             string path = "attractions.txt";
 
@@ -33,7 +45,6 @@ namespace TP2
                 Type type;
                 string nom = textPart[2];
                 int capacite = int.Parse(textPart[3]);
-
 
                 if (lettre == 'S')
                 {
@@ -64,10 +75,10 @@ namespace TP2
                     throw new Exception("Il n'y a pas d'attraction de ce type dans le parc");
                 }
 
-                attractions.Add(id,new Attraction(id, nom, type, capacite));
+                attractions.Add(id, new Attraction(id, nom, type, capacite));
             }
+
             return attractions;
         }
-
     }
 }

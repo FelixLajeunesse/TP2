@@ -1,28 +1,39 @@
-﻿namespace TP2
+﻿// <copyright file="Program.cs" company="CSTJEAN">
+// Félix Lajeunesse et Yoan Jalbert
+// </copyright>
+namespace TP2
 {
+    /// <summary>
+    /// Cette classe permet de faire des tests unitaires.
+    /// </summary>
     internal class Program
     {
         private static readonly Parc Parc = new();
         private static readonly Map Map = new();
         private static readonly GestionVisiteurs GestionVisiteurs = new(Parc);
+
         private static void Afficher()
         {
-
             Thread.Sleep(1000);
             AffichageConsole.Afficher(Parc, Map, GestionVisiteurs);
         }
+
         private static void TestEntrerVisiteur(Visiteur visiteur)
         {
             GestionVisiteurs.EntrerVisiteurDansParc(visiteur);
             GestionVisiteurs.EntrerVisiteurDansFileAttente("M0002", visiteur);
             Afficher();
         }
+
         private static void TestSortirVisiteur(Visiteur visiteur)
         {
             GestionVisiteurs.SortirVisiteurDuParc(visiteur);
             Afficher();
         }
 
+        /// <summary>
+        /// Classe principale de notre programme.
+        /// </summary>
         public static void Main()
         {
             AffichageConsole.Afficher(Parc, Map, GestionVisiteurs);
@@ -42,6 +53,7 @@
                 GestionVisiteurs.EntrerVisiteurDansAttraction("M0002");
                 Afficher();
             }
+
             TestSortirVisiteur(visiteur3);
             TestSortirVisiteur(visiteur4);
             TestSortirVisiteur(visiteur2);
@@ -50,4 +62,3 @@
         }
     }
 }
-
