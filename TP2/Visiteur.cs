@@ -15,6 +15,15 @@ namespace TP2
     public class Visiteur
     {
         /// <summary>
+        /// Constructeur.
+        /// </summary>
+        /// <param name="nom">Nom du visiteur.</param>
+        public Visiteur(string nom)
+        {
+            Nom = nom;
+        }
+
+        /// <summary>
         /// Représente le nom d'un visiteur.
         /// </summary>
         public string Nom { get; set; }
@@ -23,14 +32,5 @@ namespace TP2
         /// Représente une liste de string qui contient l'historique des actions du visiteur.
         /// </summary>
         public List<string> Historique { get; set; } = [];
-
-        /// <summary>
-        /// Constructeur.
-        /// </summary>
-        /// <param name="nom">Nom du visiteur.</param>
-        public Visiteur(string nom)
-        {
-            Nom = nom;
-        }
     }
 }

@@ -33,7 +33,6 @@ namespace TP2
 
             string[] grandeurTableau = text[0].Split(';');
 
-
             string[,] carte = new string[Convert.ToInt32(grandeurTableau[0]), Convert.ToInt32(grandeurTableau[1])];
 
             for (int i = 0; i < carte.GetLength(0); i++)

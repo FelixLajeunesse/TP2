@@ -51,6 +51,21 @@ namespace TP2
     public class Attraction
     {
         /// <summary>
+        /// Constructeur.
+        /// </summary>
+        /// <param name="id">Id de l'attraction.</param>
+        /// <param name="nom">Nom de l'attraction.</param>
+        /// <param name="type">Type d'attraction.</param>
+        /// <param name="capacite">Capacité de l'attraction.</param>
+        public Attraction(string id, string nom, Type type, int capacite)
+        {
+            Id = id;
+            Nom = nom;
+            Type = type;
+            Capacite = capacite;
+        }
+
+        /// <summary>
         /// Représente la gestion des visiteurs dans le parc.
         /// </summary>
         public string Id { get; set; }
@@ -69,20 +84,5 @@ namespace TP2
         /// Représente la capacité maximale de l'attraction.
         /// </summary>
         public int Capacite { get; }
-
-        /// <summary>
-        /// Constructeur.
-        /// </summary>
-        /// <param name="id">Id de l'attraction.</param>
-        /// <param name="nom">Nom de l'attraction.</param>
-        /// <param name="type">Type d'attraction.</param>
-        /// <param name="capacite">Capacité de l'attraction.</param>
-        public Attraction(string id, string nom, Type type, int capacite)
-        {
-            Id = id;
-            Nom = nom;
-            Type = type;
-            Capacite = capacite;
-        }
     }
 }

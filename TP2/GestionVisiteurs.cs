@@ -17,11 +17,6 @@ namespace TP2
         private Parc _parc;
 
         /// <summary>
-        /// Représente un dictionnaire des files d'attente des attractions du parc.
-        /// </summary>
-        public Dictionary<string, Queue<Visiteur>> AttractionsFileVisiteur { get; set; }
-
-        /// <summary>
         /// Constructeur.
         /// </summary>
         /// <param name="parc">Le parc où ce trouve les attractions.</param>
@@ -30,6 +25,11 @@ namespace TP2
             this._parc = parc;
             AttractionsFileVisiteur = InitialiserDictionaire(parc);
         }
+
+        /// <summary>
+        /// Représente un dictionnaire des files d'attente des attractions du parc.
+        /// </summary>
+        public Dictionary<string, Queue<Visiteur>> AttractionsFileVisiteur { get; set; }
 
         /// <summary>
         /// Représente les visiteurs actuellement dans le parc.
