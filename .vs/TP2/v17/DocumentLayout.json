@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\felix\\Desktop\\TP2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\visiteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\visiteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,8 @@
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\parc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\gestionvisiteurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\attraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|solutionrelative:tp2\\affichageconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FE4F950-477E-43C2-B1DC-3E761F2747CE}|TP2\\TP2.csproj|c:\\users\\felix\\desktop\\tp2\\tp2\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -61,33 +61,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "AffichageConsole.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeDocumentMoniker": "TP2\\AffichageConsole.cs",
               "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\AffichageConsole.cs",
               "RelativeToolTip": "TP2\\AffichageConsole.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwCkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T21:31:47.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Map.cs",
               "RelativeDocumentMoniker": "TP2\\Map.cs",
               "ToolTip": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Map.cs",
               "RelativeToolTip": "TP2\\Map.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAewCIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T19:18:13.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Parc.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Parc.cs",
               "RelativeDocumentMoniker": "TP2\\Parc.cs",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Attraction.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Attraction.cs",
               "RelativeDocumentMoniker": "TP2\\Attraction.cs",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GestionVisiteurs.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\GestionVisiteurs.cs",
               "RelativeDocumentMoniker": "TP2\\GestionVisiteurs.cs",
@@ -133,12 +133,11 @@
               "RelativeToolTip": "TP2\\GestionVisiteurs.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:58:43.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T14:58:43.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Visiteur.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Visiteur.cs",
               "RelativeDocumentMoniker": "TP2\\Visiteur.cs",
@@ -151,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\felix\\Desktop\\TP2\\TP2\\Program.cs",
               "RelativeDocumentMoniker": "TP2\\Program.cs",
@@ -159,8 +158,7 @@
               "RelativeToolTip": "TP2\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T14:48:18.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T14:48:18.79Z"
             }
           ]
         }

@@ -63,6 +63,15 @@
             Cette classe permet de représenter une attraction dans le parc d'attractions.
             </summary>
         </member>
+        <member name="M:TP2.Attraction.#ctor(System.String,System.String,TP2.Type,System.Int32)">
+            <summary>
+            Constructeur.
+            </summary>
+            <param name="id">Id de l'attraction.</param>
+            <param name="nom">Nom de l'attraction.</param>
+            <param name="type">Type d'attraction.</param>
+            <param name="capacite">Capacité de l'attraction.</param>
+        </member>
         <member name="P:TP2.Attraction.Id">
             <summary>
             Représente la gestion des visiteurs dans le parc.
@@ -83,23 +92,9 @@
             Représente la capacité maximale de l'attraction.
             </summary>
         </member>
-        <member name="M:TP2.Attraction.#ctor(System.String,System.String,TP2.Type,System.Int32)">
-            <summary>
-            Constructeur.
-            </summary>
-            <param name="id">Id de l'attraction.</param>
-            <param name="nom">Nom de l'attraction.</param>
-            <param name="type">Type d'attraction.</param>
-            <param name="capacite">Capacité de l'attraction.</param>
-        </member>
         <member name="T:TP2.GestionVisiteurs">
             <summary>
             Cette classe permet de faire la gestion des visiteurs dans le parc.
-            </summary>
-        </member>
-        <member name="P:TP2.GestionVisiteurs.AttractionsFileVisiteur">
-            <summary>
-            Représente un dictionnaire des files d'attente des attractions du parc.
             </summary>
         </member>
         <member name="M:TP2.GestionVisiteurs.#ctor(TP2.Parc)">
@@ -107,6 +102,11 @@
             Constructeur.
             </summary>
             <param name="parc">Le parc où ce trouve les attractions.</param>
+        </member>
+        <member name="P:TP2.GestionVisiteurs.AttractionsFileVisiteur">
+            <summary>
+            Représente un dictionnaire des files d'attente des attractions du parc.
+            </summary>
         </member>
         <member name="P:TP2.GestionVisiteurs.VisiteursActuel">
             <summary>
@@ -191,6 +191,12 @@
             Cette classe permet de représenter un visiteur.
             </summary>
         </member>
+        <member name="M:TP2.Visiteur.#ctor(System.String)">
+            <summary>
+            Constructeur.
+            </summary>
+            <param name="nom">Nom du visiteur.</param>
+        </member>
         <member name="P:TP2.Visiteur.Nom">
             <summary>
             Représente le nom d'un visiteur.
@@ -200,12 +206,6 @@
             <summary>
             Représente une liste de string qui contient l'historique des actions du visiteur.
             </summary>
-        </member>
-        <member name="M:TP2.Visiteur.#ctor(System.String)">
-            <summary>
-            Constructeur.
-            </summary>
-            <param name="nom">Nom du visiteur.</param>
         </member>
     </members>
 </doc>
