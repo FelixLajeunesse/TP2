@@ -150,7 +150,12 @@
             Cette classe qui permet de représenter la map du parc.
             </summary>
         </member>
-        <member name="F:TP2.Map.Carte">
+        <member name="M:TP2.Map.#ctor">
+            <summary>
+            Constructeur.
+            </summary>
+        </member>
+        <member name="P:TP2.Map.Carte">
             <summary>
             Représente la carte du parc.
             </summary>

@@ -17,9 +17,17 @@ namespace TP2
     public class Map
     {
         /// <summary>
+        /// Constructeur.
+        /// </summary>
+        public Map()
+        {
+            Carte = ChargerMap();
+        }
+
+        /// <summary>
         /// Représente la carte du parc.
         /// </summary>
-        public string[,] Carte = ChargerMap();
+        public string[,] Carte { get; }
 
         /// <summary>
         /// Permet de charger la map du parc à partir d'un fichier texte.

@@ -39,21 +39,18 @@ namespace TP2
                 if (gestionVisiteurs.AttractionsFileVisiteur[attraction.Id].Count == 3)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.Write("* ");
-                    Console.ResetColor();
                 }
                 else if (gestionVisiteurs.AttractionsFileVisiteur[attraction.Id].Count == 4)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("* ");
-                    Console.ResetColor();
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write("* ");
-                    Console.ResetColor();
                 }
+
+                Console.Write("* ");
+                Console.ResetColor();
 
                 Console.WriteLine($"{attraction.Id,-10}   {attraction.Type,5}   {attraction.Nom,-30}     {gestionVisiteurs.AttractionsFileVisiteur[attraction.Id].Count,5} / {attraction.Capacite,1}");
             }
