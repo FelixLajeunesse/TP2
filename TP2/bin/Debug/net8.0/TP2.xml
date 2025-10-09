@@ -23,6 +23,14 @@
             </summary>
             <param name="visiteur">Parc d'attraction.</param>
         </member>
+        <member name="M:TP2.AffichageConsole.DeterminerCouleurAttraction(System.String,TP2.GestionVisiteurs)">
+            <summary>
+            Détermine la couleur d'affichage d'une attraction en fonction de son état.
+            </summary>
+            <param name="id">L'identifiant de l'attraction.</param>
+            <param name="gestionVisiteurs">La gestion des visiteurs.</param>
+            <returns>La couleur d'affichage de l'attraction.</returns>
+        </member>
         <member name="T:TP2.Type">
             <summary>
             Représente les types d'attractions possibles.
