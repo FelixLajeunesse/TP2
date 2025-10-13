@@ -30,6 +30,9 @@ namespace TP2
 
         /// <summary>
         /// Représente une liste de string qui contient l'historique des actions du visiteur.
+        /// Ont a choisient la list, car elle a un accès plus rapide que la linkedList et un ajout assez rapide par rapport au array
+        /// mais moins rapide que la linkedList, mais puisuqu'a chaque fois que la list est pleine, celle-ci double
+        /// sa grandeur, ce qui la rend assez rapide pour ce contexte.
         /// </summary>
         public List<string> Historique { get; set; } = [];
     }

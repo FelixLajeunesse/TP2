@@ -25,6 +25,8 @@ namespace TP2
 
         /// <summary>
         /// Représente un dictionnaire des attractions du parc.
+        /// Ont à choisient cette structure de données, car c'est facile d'acceder a une attraction a partir d'un id
+        /// avec un dictionary, car il foncitonne avec un systeme de key,value.
         /// </summary>
         public Dictionary<string, Attraction> Attractions { get; } = [];
 

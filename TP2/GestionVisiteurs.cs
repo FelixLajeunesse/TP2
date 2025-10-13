@@ -28,11 +28,16 @@ namespace TP2
 
         /// <summary>
         /// Représente un dictionnaire des files d'attente des attractions du parc.
+        /// Ont à choisient la Queue, car elle à un principe de file d'attente donc premier arriver premier sortie
+        /// et le dictionary, car chaque Queue fait référence a une attraction et on doit pouvoir acceder a chaque
+        /// file d'attente (Queue) de chaque attraction facilement.
         /// </summary>
         public Dictionary<string, Queue<Visiteur>> AttractionsFileVisiteur { get; set; }
 
         /// <summary>
         /// Représente les visiteurs actuellement dans le parc.
+        /// Ont à choisient la LinkedList, car elle est efficace pour ajouter des données et les supprimer.
+        /// comme le critère l'indique, il n'y a pas d'accès directe aux données, ce qui est le cas de la LinkedList.
         /// </summary>
         public LinkedList<Visiteur> VisiteursActuel { get; set; } = new LinkedList<Visiteur>();
 

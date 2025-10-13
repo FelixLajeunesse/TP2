@@ -26,6 +26,8 @@ namespace TP2
 
         /// <summary>
         /// Représente la carte du parc.
+        /// Ont a choisient le array, car cette structure de données est efficace pour l'accès. si la quantité de donnée
+        /// est connu à l'avance et qu'il n'y a pas de modification, le array est la meilleure option.
         /// </summary>
         public string[,] Carte { get; }
 
